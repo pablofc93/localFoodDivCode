@@ -1,0 +1,493 @@
+<!DOCTYPE html> <!--continuar en el video 47:38-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Enlaces de archivos css externos e internos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--encabezado-->
+    <header>
+
+        <div class="menu container">
+            <img class="logo-1" src="images/logo.svg">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img class="menu-icono" src="images/menu.png">
+            </label>
+
+            <nav class="navbar">
+
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Productos</a></li>
+                    </ul>
+                </div>
+
+                <img src="images/logo.svg" class="logo-2">
+
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s1.svg">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s2.svg">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s3.svg">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    
+            </nav>
+        </div>
+
+        <!--Slider-->
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+            
+                    <div class="swiper-slide"><!--Fijarse si aqui comienza el slider**-->
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa</h1>
+                                <p>
+                                    ¿Listo para una experiencia gastronómica única? 
+                                    Food DivCode, te ofrecemos las mejores hamburguesas 
+                                    artesanales de la ciudad. Nuestras hamburguesas son elaboradas con 
+                                    los ingredientes más frescos y de primera calidad, directamente de 
+                                    productores locales.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+            
+                            <div class="slider-img">
+                                <img src="images/slider1.png">
+                            </div>
+            
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><!--Fijarse si aqui comienza el slider**-->
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Pebete especial</h1>
+                                <p>
+                                    Descubrí el placer de los mejores pebetes de la ciudad en Food DivCode. 
+                                    Cada uno de nuestros sándwiches es una obra maestra culinaria, preparada con 
+                                    ingredientes frescos y de la más alta calidad.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+            
+                            <div class="slider-img">
+                                <img src="images/slider2.png">
+                            </div>
+            
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><!--Fijarse si aqui comienza el slider**-->
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Super Hamburguesa</h1>
+                                <p>
+                                    Si buscás una hamburguesa que te deje sin palabras, 
+                                    ¡llegaste al lugar indicado! En Food DivCode, 
+                                    nos especializamos en crear hamburguesas que superan todas 
+                                    las expectativas, con combinaciones de sabores que te harán volver por más.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+            
+                            <div class="slider-img">
+                                <img src="images/slider3.png">
+                            </div>
+            
+                        </div>
+                    </div>
+            
+                </div>
+
+                <!--botones de navegación-->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+       
+    </header>
+
+
+    <!--Main o cuerpo de la página-->
+    <main class="products">
+        <div class="tabs container">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Hamburguesa</label>
+
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="products-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food1.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Hamburguesa Doble</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="products-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food2.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pebete Especial</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$50.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="products-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food3.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--botones de desplazamiento-->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+
+            </div>
+
+            
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Burritos</label>
+            <div class="tab">
+
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="products-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food4.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$70.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="products-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food5.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$70.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="products-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food6.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!--botones de desplazamiento-->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Variedad</label>
+            <div class="tab">
+
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="products-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food7.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Ensalada de Pollo</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="products-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food8.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Shish Kebab de pollo</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$90.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="products-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food9.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pizza Especial</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$100.00</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!--botones de desplazamiento-->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+            
+
+        </div>
+        
+    </main>
+
+    <!--Sección de artículos-->
+    <section class="info container">
+
+        <div class="info-img">
+            <img src="images/info.png">
+        </div>
+
+        <div class="info-txt">
+            <h2>Información</h2>
+            <p>
+                ¿Estás listo para un viaje culinario sin salir de la ciudad? 
+                En Food DivCode, te ofrecemos una variedad de platos que combinan lo mejor de la gastronomía 
+                internacional con un toque familiar. Desde tacos mexicanos hasta pollo frito estilo sureño, 
+                pasando por nuestras famosas hamburguesas y pizzas, cada bocado es una aventura.
+            </p>
+            <a href="#" class="btn-2">Más Información</a>
+        </div>
+
+    </section>
+
+    <!--Sección de horarios-->
+    <section class="horario">
+        <div class="horario-info container">
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Dirección</h4>
+                    <p>
+                        Alsina 223 San Pedro de Jujuy.
+                    </p>
+                    <p>
+                        Alvear 443 San Salvador de Jujuy.
+                    </p>
+                </div>
+
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>
+                        Lunes a Viernes de 9:00 a 20:00
+                    </p>
+                    <p>
+                        Sábados y Domingos de 9:00 a 13:00
+                    </p>
+                </div>
+
+                <div class="txt">
+                    <h4>Teléfono</h4>
+                    <p>
+                        3888 603865
+                    </p>
+                    <p>
+                        3888 603863
+                    </p>
+                </div>
+
+                <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s1.svg">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s2.svg">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s3.svg">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección de mapa-->
+    <section>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.6637096160916!2d-64.86849436364679!3d-24.23142712168497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941a58643a77e5d3%3A0x31b0110f4770a14a!2sSan%20Pedro%20de%20Jujuy%2C%20Jujuy!5e0!3m2!1ses!2sar!4v1719845141840!5m2!1ses!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!--Sección de pie de página-->
+    <footer class="footer container">
+        <img class="logo-2" src="images/logo.svg">
+        <div class="links">
+            <h4>Menu</h4>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Colaboradores</a></li>
+                <li><a href="#">Reseñas</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Contacto</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Tik Tok</a></li>
+                <li><a href="#">Whatsapp</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Nosotros</h4>
+            <ul>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Nuestra Carta</a></li>
+                <li><a href="#">Especialidades</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Redes Sociales</h4>
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <img src="images/s1.svg">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="images/s2.svg">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="images/s3.svg">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <!--Script de javascript externos e internos-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
